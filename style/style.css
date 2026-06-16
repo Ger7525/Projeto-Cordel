@@ -96,6 +96,39 @@ section#img02{
    background-position: right center;
    
 }
+
+section.video{
+  position:relative ;
+  background-color: white;
+  height: 0px;
+  margin-left:0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 59%;
+
+}
+section.video > iframe{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+section.base{
+   background-color: white;
+   text-align: left;
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+}
+section.base >p{
+   font-size: 3.0vw;
+   text-align: justify;
+   padding-right: 30px;
+   line-height: 2em;
+}
+section.base >p >a{
+   color: black;
+}
 footer{
    background-color: black; 
    color: white;
@@ -104,5 +137,6 @@ footer{
    max-width: 800px;
    margin: 0 auto;
    border: 1px solid black;
+   line-height: 1.5em;
 
 }
